@@ -1,0 +1,7 @@
+{
+    "require": {
+        "cache/predis-adapter": "^1.0",
+        "yaglot/yaglot-php": "^0.0.1",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}

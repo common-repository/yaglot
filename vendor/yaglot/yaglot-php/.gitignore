@@ -1,0 +1,10 @@
+.git
+.vagrant
+dev/vendor
+dev/vendor/*
+master
+master/*
+dev/node_modules
+dev/node_modules/*
+examples-dev/*
+/vendor/

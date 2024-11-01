@@ -1,0 +1,6 @@
+{
+    "require": {
+        "htmlburger/carbon-fields": "^2.2",
+        "yaglot/yaglot-php": "^1.0.3"
+    }
+}

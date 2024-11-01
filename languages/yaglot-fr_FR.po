@@ -1,0 +1,432 @@
+# Copyright (C) 2018 DevIT Team
+# This file is distributed under the same license as the YaGlot plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: YaGlot 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yaglot\n"
+"POT-Creation-Date: 2019-01-02T13:47:49+00:00\n"
+"PO-Revision-Date: 2019-01-02 16:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. Plugin Name of the plugin
+msgid "YaGlot"
+msgstr "YaGlot"
+
+#. Plugin URI of the plugin
+msgid "https://yaglot.com/"
+msgstr "https://yaglot.com/"
+
+#. Description of the plugin
+msgid ""
+"Need translate a website? YaGlot plugin will make your website multilingual "
+"easily. Go global and build international business with us!"
+msgstr ""
+"Besoin de traduire un site web? YaGlot plugin rendra votre site Web "
+"multilingue facilement. Devenez mondial et construisez des affaires "
+"internationales avec nous!"
+
+#. Author of the plugin
+msgid "DevIT Team"
+msgstr "DevIT Team"
+
+#. Author URI of the plugin
+msgid "https://devit-team.com/"
+msgstr "https://devit-team.com/"
+
+#: carbon/containers/Yaglot_Admin_Page_Container.php:78
+msgid "Settings saved."
+msgstr "Paramètres sauvegardés."
+
+#: carbon/templates/yaglot_admin_page.php:45
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: carbon/templates/yaglot_admin_page.php:58
+msgid "Where are my translations?"
+msgstr "Où sont mes traductions?"
+
+#: carbon/templates/yaglot_admin_page.php:61
+msgid "You can find all your translations in %s account"
+msgstr "Vous pouvez trouver toutes vos traductions en %s compte"
+
+#: carbon/templates/yaglot_admin_page.php:69
+msgid "Edit my translations"
+msgstr "Modifier mes traductions"
+
+#: carbon/templates/yaglot_admin_page.php:78
+msgid "Project"
+msgstr "Projet"
+
+#: carbon/templates/yaglot_admin_page.php:88
+msgid "Plan"
+msgstr "Plan"
+
+#: carbon/templates/yaglot_admin_page.php:92
+msgid "Languages"
+msgstr "Langues"
+
+#: carbon/templates/yaglot_admin_page.php:93
+msgid "Unlimited"
+msgstr "Illimité"
+
+#: carbon/templates/yaglot_admin_page.php:96
+msgid "Page views"
+msgstr "Pages vues"
+
+#: carbon/templates/yaglot_admin_page.php:100
+msgid "Characters"
+msgstr "Caractères"
+
+#: carbon/templates/yaglot_admin_page.php:109
+msgid "Statistic"
+msgstr "Statistique"
+
+#: carbon/templates/yaglot_admin_page.php:114
+msgid "Languages used"
+msgstr "Langues utilisées"
+
+#: carbon/templates/yaglot_admin_page.php:123
+msgid "Pages viewed"
+msgstr "Pages vues"
+
+#: carbon/templates/yaglot_admin_page.php:127
+msgid "Characters translated"
+msgstr "Caractères traduits"
+
+#: carbon/templates/yaglot_admin_page.php:143
+msgid "Love %s? Give us 5 stars on WordPress.org :)"
+msgstr "Aimez-vous %s? Donnez-nous 5 étoiles sur WordPress.org :)"
+
+#: carbon/templates/yaglot_admin_page.php:148
+msgid "If you need any help, you can contact us via email us at %s."
+msgstr ""
+"Si vous avez besoin d'aide, vous pouvez nous contacter par e-mail nous à %s."
+
+#: carbon/templates/yaglot_admin_page.php:149
+msgid "You can also check our %sDocumentation%s."
+msgstr "Vous pouvez également lire notre %sDocumentation%s."
+
+#: includes/admin/tabs/YaglotAdminExclusion.php:20
+msgid "Exclude pages from translation."
+msgstr "Exclure les pages de la traduction."
+
+#: includes/admin/tabs/YaglotAdminExclusion.php:21
+msgid ""
+"Add URL that you want to exclude from translations. You can use regular "
+"expression to match multiple URLs."
+msgstr ""
+"Ajoutez l'URL que vous souhaitez exclure des traductions. Vous pouvez "
+"utiliser une expression régulière pour faire correspondre plusieurs URL."
+
+#: includes/admin/tabs/YaglotAdminExclusion.php:23
+msgid "Pages"
+msgstr "Des pages"
+
+#: includes/admin/tabs/YaglotAdminExclusion.php:24
+msgid "Page"
+msgstr "Page"
+
+#: includes/admin/tabs/YaglotAdminExclusion.php:31
+msgid "Exclude html elements from translation."
+msgstr "Exclure les éléments HTML de la traduction."
+
+#: includes/admin/tabs/YaglotAdminExclusion.php:32
+msgid ""
+"Enter the CSS selector of blocks you don't want to translate (like a "
+"sidebar, a menu, a paragraph etc...)"
+msgstr ""
+"Entrez le sélecteur CSS des blocs que vous ne voulez pas traduire (comme une "
+"barre latérale, un menu, un paragraphe, etc.)"
+
+#: includes/admin/tabs/YaglotAdminExclusion.php:34
+msgid "Selectors"
+msgstr "Sélecteurs"
+
+#: includes/admin/tabs/YaglotAdminExclusion.php:35
+msgid "Selector"
+msgstr "Sélecteur"
+
+#: includes/admin/tabs/YaglotAdminExclusion.php:52
+msgid ""
+"Here you can exclude pages and HTML elements from translation. You can get "
+"more detailed information from %sour documentation%s."
+msgstr ""
+"Ici, vous pouvez exclure des pages et des éléments HTML de la traduction. "
+"Vous pouvez obtenir des informations plus détaillées dans %snotre "
+"documentation%s."
+
+#: includes/admin/tabs/YaglotAdminOther.php:19
+msgid "Translate wordpress emails"
+msgstr "Traduire des emails wordpress"
+
+#: includes/admin/tabs/YaglotAdminOther.php:20
+msgid "Turn off to disable email translations"
+msgstr "Désactivez cette option pour désactiver les traductions email"
+
+#: includes/admin/tabs/YaglotAdminOther.php:24
+msgid "Translate AMP pages"
+msgstr "Traduire les pages AMP"
+
+#: includes/admin/tabs/YaglotAdminOther.php:25
+msgid "Turn off to disable AMP pages translations"
+msgstr "Désactivez cette option pour désactiver les pages d'AMP traductions"
+
+#: includes/admin/tabs/YaglotAdminOther.php:29
+msgid "Detect language by browser on first visit"
+msgstr "Détecter la langue par le navigateur lors de la première visite"
+
+#: includes/admin/tabs/YaglotAdminOther.php:30
+msgid "Turn off to disable redirection by visitor browser language"
+msgstr ""
+"Désactiver pour désactiver la redirection par visiteur langue du navigateur"
+
+#: includes/admin/tabs/YaglotAdminOther.php:34
+msgid "Show languages switchers on the page"
+msgstr "Afficher les commutateurs de langues sur la page"
+
+#: includes/admin/tabs/YaglotAdminOther.php:35
+msgid "Turn off to hide all switchers"
+msgstr "Désactiver pour masquer tous les commutateurs"
+
+#: includes/admin/tabs/YaglotAdminOther.php:39
+msgid "Enable RTL"
+msgstr "Activer droit à gauche langue"
+
+#: includes/admin/tabs/YaglotAdminOther.php:40
+msgid "Add %s to html on RTL languages"
+msgstr "Ajouter %s au HTML sur les langues de droite à gauche"
+
+#: includes/admin/tabs/YaglotAdminOther.php:46
+msgid ""
+"In this section you can enable or disable detecting language by browser, "
+"switchers display and RTL. You can get more detailed information from %sour "
+"documentation%s."
+msgstr ""
+"Dans cette section vous pouvez activer ou désactiver la détection de la "
+"langue par navigateur, affichage des commutateurs et langues de droite à "
+"gauche. Vous pouvez obtenir des informations plus détaillées dans %snotre "
+"documentation%s."
+
+#: includes/admin/tabs/YaglotAdminSettings.php:16
+msgid "API Key"
+msgstr "Clé API"
+
+#: includes/admin/tabs/YaglotAdminSettings.php:17
+msgid "Log in to %s to get your API key."
+msgstr "Connectez-vous à %s pour obtenir votre clé API."
+
+#: includes/admin/tabs/YaglotAdminSettings.php:21
+msgid "Original language"
+msgstr "Langue originale"
+
+#: includes/admin/tabs/YaglotAdminSettings.php:24
+msgid "What is the original (current) language of your website?"
+msgstr "Quelle est la langue d'origine (actuelle) de votre site web?"
+
+#: includes/admin/tabs/YaglotAdminSettings.php:26
+msgid "Target languages"
+msgstr "Langues cibles"
+
+#: includes/admin/tabs/YaglotAdminSettings.php:28
+msgid ""
+"Choose languages you want to translate into. Supported languages can be "
+"found %shere%s."
+msgstr ""
+"Choisissez les langues dans lesquelles vous souhaitez traduire. Les langues "
+"prises en charge peuvent être trouvées %sici%s."
+
+#: includes/admin/tabs/YaglotAdminSettings.php:34
+msgid ""
+"In this section you will need to enter your API Key. It provides an access "
+"to translations. You can get it in your %s account. Also, you need to set "
+"original and target languages of your website. You can get more detailed "
+"information from %sour documentation%s."
+msgstr ""
+"Dans cette section, vous devrez entrer votre clé API. Il fournit un accès "
+"aux traductions. Vous pouvez l'obtenir dans votre %s compte. En outre, vous "
+"devez définir les langues d'origine et cible de votre site Web. Vous pouvez "
+"obtenir des informations plus détaillées dans %snotre documentation%s."
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:77
+msgid "Create your own switchers"
+msgstr "Créez vos propres commutateurs"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:79
+msgid "Switchers"
+msgstr "Commutateurs"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:80
+#: includes/admin/YaglotAdmin.php:179
+#: includes/widgets/YaglotSwitcherWidget.php:131
+msgid "Switcher"
+msgstr "Commutateur"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:93
+msgid "Type"
+msgstr "Type"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:97
+msgid "Flags"
+msgstr "Drapeaux"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:105
+msgid "Insert switcher in the page corner"
+msgstr "Insérer un commutateur dans le coin de la page"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:106
+msgid ""
+"If you enable this option, the switcher will be automatically placed in the "
+"page corner. If you want to set switcher's position yourself, disable this "
+"option."
+msgstr ""
+"Si vous activez cette option, le commutateur sera automatiquement placé dans "
+"le coin de la page. Si vous souhaitez définir vous-même la position du "
+"commutateur, désactivez cette option."
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:110
+msgid "Position"
+msgstr "Position"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:122
+msgid "Offset from corner"
+msgstr "Décalage du coin de la page"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:135
+msgid "Use predesigned css for switcher"
+msgstr "Utiliser des CSS prédéfinis pour le commutateur"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:139
+msgid "Show languages codes as titles"
+msgstr "Afficher les codes de langues sous forme de titres"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:142
+msgid "Class"
+msgstr "Classe"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:143
+msgid "Assign additional classes to switcher."
+msgstr "Attribuez des classes supplémentaires au commutateur."
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:145
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:147
+msgid ""
+"Write own CSS styles. Use <code>{{id}}</code> to generate unique selector to "
+"this switcher."
+msgstr ""
+"Écrivez vos propres styles CSS. Utilisez <code>{{id}}</code> pour générer un "
+"sélecteur unique sur ce sélecteur."
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:151
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:152
+msgid "Use this shortcode to append switcher manually."
+msgstr "Utilisez ce shortcode pour ajouter manuellement le commutateur."
+
+#: includes/admin/tabs/YaglotAdminSwitcher.php:157
+msgid ""
+"In the \"Switcher\" section you are able to clone, delete, add new or edit "
+"existing switchers. Different options are available for customization. For "
+"example, you can change switcher’s type, data, position, offset, etc. You "
+"can get more detailed information from %sour documentation%s."
+msgstr ""
+"Dans la section \"Commutateurs\", vous pouvez cloner, supprimer, ajouter ou "
+"modifier des commutateurs existants. Différentes options sont disponibles "
+"pour la personnalisation. Par exemple, vous pouvez modifier le type, les "
+"données, la position, le décalage, etc. du commutateurs. Vous pouvez obtenir "
+"des informations plus détaillées dans %snotre documentation%s."
+
+#: includes/admin/YaglotAdmin.php:114 includes/admin/YaglotAdmin.php:178
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/admin/YaglotAdmin.php:133
+msgid ""
+"Plugin is installed but not configured yet. You need to configure %s %shere"
+"%s. The configuration takes only 1 minute!"
+msgstr ""
+"Le plugin est installé mais pas encore configuré. Vous devez configurer %s "
+"%sici%s. La configuration prend seulement 1 minute!"
+
+#: includes/admin/YaglotAdmin.php:139
+msgid ""
+"Plugin is installed but languages are not filled. You can fill them %shere%s."
+msgstr ""
+"Le plugin est installé mais les langues ne sont pas renseignées. Vous pouvez "
+"les remplir %sici%s."
+
+#: includes/admin/YaglotAdmin.php:158
+msgid ""
+"Max %d target languages allowed. Please %supgrade your plan%s to use more "
+"languages."
+msgstr ""
+"Max %d langues cibles autorisées. Veuillez %smettre à jour votre plan%s pour "
+"utiliser plus de langues."
+
+#: includes/admin/YaglotAdmin.php:180
+msgid "Exclusion"
+msgstr "Exclusion"
+
+#: includes/admin/YaglotAdmin.php:181
+msgid "Other"
+msgstr "Autre"
+
+#: includes/services/YaglotMenuService.php:181
+msgid "Select all"
+msgstr "Tout sélectionner"
+
+#: includes/services/YaglotMenuService.php:185
+#: includes/services/YaglotMenuService.php:186
+msgid "Add to menu"
+msgstr "Ajouter au menu"
+
+#: includes/widgets/YaglotSwitcherWidget.php:116
+msgid "Title:"
+msgstr "Titre:"
+
+#: includes/widgets/YaglotSwitcherWidget.php:125
+msgid "There are no switchers available."
+msgstr "Il n'y a pas de commutateurs disponibles."
+
+#: includes/widgets/YaglotSwitcherWidget.php:138
+msgid "-- Select --"
+msgstr "-- Sélectionnez --"
+
+#: notices/no-curl.php:11
+msgid ""
+"%1$s: You need to activate cURL. If you need help, just ask us directly at "
+"%2$s."
+msgstr ""
+"%1$s: Vous devez activer cURL. Si vous avez besoin d’aide, contactez-nous "
+"directement à %2$s."
+
+#. translators: 1 is a plugin name, 2 is Weglot version, 3 is current php version.
+#: notices/php-min.php:12
+msgid ""
+"%1$s  requires PHP %2$s minimum, your website is actually running version "
+"%3$s."
+msgstr ""
+"%1$s nécessite au PHP %2$s minimum, votre site web est en cours d'exécution "
+"%3$s."
+
+#: notices/rewrite-module.php:11
+msgid ""
+"%1$s: You need to activate the mod_rewrite module. You can find more "
+"information here: %2$sUsing Permalinks%3$s. If you need help, just ask us "
+"directly at %4$s."
+msgstr ""
+"%1$s: Vous devez activer le module mod_rewrite. Vous pouvez trouver plus "
+"d'informations ici: %2$sUtilisation de permaliens %3$s. Si vous avez besoin "
+"d’aide, il suffit de nous demander directement à %4$s."

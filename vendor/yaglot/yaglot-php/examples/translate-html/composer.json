@@ -1,0 +1,6 @@
+{
+    "require": {
+        "yaglot/yaglot-php": "^0.0.1",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}

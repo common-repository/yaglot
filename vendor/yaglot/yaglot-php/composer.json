@@ -1,0 +1,49 @@
+{
+  "name": "yaglot/yaglot-php",
+  "description": "PHP SDK for the Yaglot API",
+  "version": "1.0.5",
+  "homepage": "https://yaglot.com/",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Devit Team",
+      "email": "support@devit-team.com",
+      "homepage": "https://devit-team.com/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@yaglot.com",
+    "source": "https://gitlab.com/devit.team/yaglot/SDK/php"
+  },
+  "keywords": [
+    "php",
+    "yaglot",
+    "yaglot-library",
+    "translate",
+    "translation",
+    "translator",
+    "localization",
+    "languages",
+    "i18n"
+  ],
+  "require": {
+    "php": ">=5.6",
+    "psr/cache": "^1.0",
+    "psr/http-message": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yaglot\\": "src/"
+    },
+    "psr-0": {
+      "YaglotSimpleHtmlDom": "simpledom/"
+    },
+    "files": [
+      "simpledom/simple_html_dom.php"
+    ]
+  },
+  "require-dev": {
+  }
+}

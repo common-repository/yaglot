@@ -1,0 +1,5 @@
+{
+    "require": {
+        "yaglot/yaglot-php": "^0.0.1"
+    }
+}
